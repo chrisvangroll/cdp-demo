@@ -7,7 +7,7 @@ const loadEngage = async () => {
     clientKey: "ngsuatxhbmeuas37zfn79tsaf8etr8ro",
     targetURL: "https://api-engage-us.sitecorecloud.io",
     pointOfSale: "ngc",
-    cookieDomain: "https://chrisvangroll.github.io/cdp/",
+    cookieDomain: "https://cdp-demo-beta.vercel.app/",
     cookieExpiryDays: 365,
     forceServerCookieMode: false,
     includeUTMParameters: true,
