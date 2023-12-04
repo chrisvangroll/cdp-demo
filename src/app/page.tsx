@@ -10,5 +10,18 @@ export default function Home() {
       engage && sendPageViewEvent(engage, "abc");
     }
   }, []);
-  return <main className={styles.main}>CDP TEST</main>;
+
+    const handleClick = async () => {
+    console.log("custom event sent")
+    const eventData = {
+      channel: "WEB",
+      currency: "USD",
+      pointOfSale: "ngc",
+      language: "EN",
+      page: "home"
+    };
+    engage && await engage.event("CLICKED_SECURITY", eventData);
+};
+
+  return <main onClick={handleClick} className={styles.main}>CDP DEMO</main>;
 }
