@@ -11,7 +11,7 @@ const loadEngage = async () => {
     cookieExpiryDays: 365,
     forceServerCookieMode: false,
     includeUTMParameters: true,
-    webPersonalization: false 
+    webPersonalization: true 
   });
 };
 
