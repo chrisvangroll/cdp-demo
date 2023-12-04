@@ -10,5 +10,5 @@ export default function Home() {
       engage && sendPageViewEvent(engage, "abc");
     }
   }, []);
-  return <main className={styles.main}>CDP</main>;
+  return <main className={styles.main}>CDP DEMO</main>;
 }
