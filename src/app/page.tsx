@@ -23,5 +23,11 @@ export default function Home() {
     engage && await engage.event("CLICKED_SECURITY", eventData);
 };
 
-  return <main onClick={handleClick} className={styles.main}>CDP DEMO</main>;
+    return (
+    <main className={styles.main}>
+      <h1>CDP DEMO</h1>
+      <div className="my-4">Lorem Ipsum</div>
+      <div>Lorem ipsum dolor sit.</div>
+    </main>
+  );
 }
