@@ -25,7 +25,7 @@ export default function Home() {
 
     return (
     <main className={styles.main}>
-      <h1>CDP DEMO</h1>
+      <div>CDP DEMO</div>
       <div className="my-4 subtitle">Lorem Ipsum</div>
       <div>Lorem ipsum dolor sit.</div>
     </main>
